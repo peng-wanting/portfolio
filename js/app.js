@@ -49,7 +49,7 @@
     const pad2 = (n) => String(n).padStart(2, '0');
 
     function buildImagePath(projectId, pageNum) {
-        return `images/projects/${projectId}/page-${pad2(pageNum)}.png`;
+        return `images/projects/${projectId}/page-${pad2(pageNum)}.jpg`;
     }
 
     function showHome(targetSelector) {
