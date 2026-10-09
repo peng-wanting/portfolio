@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanting Peng · Portfolio</title>
+    <meta name="description" content="彭婉婷 - 设计作品集。Observe life, create beauty.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?v=20261009c">
+</head>
+<body>
+    <!-- Mouse spotlight -->
+    <div class="spotlight" id="spotlight" aria-hidden="true"></div>
+
+    <!-- Scroll progress -->
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-links">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#work" class="nav-link">Work</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Home View -->
+    <main id="home-view" class="view view-home">
+
+        <!-- Page 1 · Cover -->
+        <section class="hero" id="home">
+            <div class="hero-inner">
+                <h1 class="hero-title" id="hero-title">Portfolio</h1>
+                <div class="hero-line" aria-hidden="true"></div>
+                <div class="hero-meta">
+                    <span class="hero-meta-item">Wanting Peng</span>
+                    <span class="hero-meta-item">Designer</span>
+                </div>
+            </div>
+            <div class="scroll-hint" aria-hidden="true">
+                <span class="scroll-hint-text">Scroll</span>
+                <span class="scroll-hint-line"></span>
+            </div>
+        </section>
+
+        <!-- Page 2 · About Me -->
+        <section class="about" id="about">
+            <h2 class="about-title reveal">About Me</h2>
+            <p class="about-tagline reveal">Observe life, create beauty.</p>
+
+            <div class="about-grid">
+                <div class="about-portrait reveal">
+                    <img src="images/portrait.png" alt="Wanting Peng portrait" loading="eager" decoding="async">
+                </div>
+                <div class="about-content">
+                    <p class="about-bio reveal">
+                        Hi，我是彭婉婷，27岁。<br>
+                        珠宝设计专业，过去七年一直在做消费产品设计。<br>
+                        我喜欢研究色彩、材料和工艺，也喜欢从生活里寻找设计灵感。<br>
+                        腕表和珠宝让我积累了对材质与细节的敏感，<br>
+                        而对新事物的好奇，让我一直想尝试更多不同的产品和设计可能。
+                    </p>
+                    <div class="about-divider reveal" aria-hidden="true"></div>
+                    <div class="about-edu reveal">
+                        <span>深圳城市职业学院</span>
+                        <span>珠宝设计与制作专业</span>
+                    </div>
+                    <div class="about-divider reveal" aria-hidden="true"></div>
+                    <p class="skills-label reveal">Skills</p>
+                    <ul class="skills-list">
+                        <li class="skill-item reveal">
+                            <span class="skill-cat">CMF Design</span>
+                            <span class="skill-detail">Color · Material · Finish</span>
+                        </li>
+                        <li class="skill-item reveal">
+                            <span class="skill-cat">Product Design</span>
+                            <span class="skill-detail">Concept · Form · Development</span>
+                        </li>
+                        <li class="skill-item reveal">
+                            <span class="skill-cat">Research</span>
+                            <span class="skill-detail">Trend · Color · Material</span>
+                        </li>
+                        <li class="skill-item reveal">
+                            <span class="skill-cat">AIGC</span>
+                            <span class="skill-detail">Visual Exploration · Concept Development</span>
+                        </li>
+                        <li class="skill-item reveal">
+                            <span class="skill-cat">Production</span>
+                            <span class="skill-detail">Craft · Prototyping · Production</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 3 · Contents -->
+        <section class="contents" id="work">
+            <p class="contents-label reveal">目录</p>
+            <h2 class="contents-title reveal">Contents</h2>
+            <div class="contents-line reveal" aria-hidden="true"></div>
+
+            <div class="contents-grid">
+                <article class="project-card reveal" data-project="sparkle" tabindex="0">
+                    <div class="card-image">
+                        <img src="images/projects/sparkle/thumb.png" alt="SPARKLE project" decoding="async">
+                    </div>
+                    <div class="card-meta">
+                        <span class="card-num">01</span>
+                        <span class="card-name">SPARKLE</span>
+                    </div>
+                    <p class="card-sub">钻随心动艺术腕表</p>
+                </article>
+
+                <article class="project-card reveal" data-project="rebel" tabindex="0">
+                    <div class="card-image">
+                        <img src="images/projects/rebel/thumb.png" alt="REBEL project" decoding="async">
+                    </div>
+                    <div class="card-meta">
+                        <span class="card-num">02</span>
+                        <span class="card-name">REBEL</span>
+                    </div>
+                    <p class="card-sub">双子星机械腕表</p>
+                </article>
+
+                <article class="project-card reveal" data-project="island" tabindex="0">
+                    <div class="card-image">
+                        <img src="images/projects/island/thumb.png" alt="ISLAND project" decoding="async">
+                    </div>
+                    <div class="card-meta">
+                        <span class="card-num">03</span>
+                        <span class="card-name">ISLAND</span>
+                    </div>
+                    <p class="card-sub">孤岛系列首饰</p>
+                </article>
+
+                <article class="project-card reveal" data-project="aigc" tabindex="0">
+                    <div class="card-image">
+                        <img src="images/projects/aigc/thumb.png" alt="AIGC project" decoding="async">
+                    </div>
+                    <div class="card-meta">
+                        <span class="card-num">04</span>
+                        <span class="card-name">AIGC</span>
+                    </div>
+                    <p class="card-sub">未来主义机械艺术</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact reveal" id="contact">
+            <p class="label">Contact</p>
+            <a href="mailto:13028845933@163.com" class="contact-email">13028845933@163.com</a>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2026 Wanting Peng</p>
+        </footer>
+    </main>
+
+    <!-- Project Detail View -->
+    <main id="project-view" class="view view-project" hidden>
+        <div class="project-pages" id="project-pages">
+            <!-- Pages will be dynamically loaded here -->
+        </div>
+    </main>
+
+    <script src="js/app.js?v=20261009c"></script>
+</body>
+</html>
